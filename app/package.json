@@ -6,6 +6,9 @@
   "dependencies": {
     "electron-prebuilt": "^1.3.3"
   },
+  "devDependencies": {
+    "electron-builder": "next"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vicatcu/Electron-Sandbox.git"
