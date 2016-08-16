@@ -1,7 +1,7 @@
 {
   "name": "electron-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "blargity blargy blarg",
   "main": "main.js",
   "build": {
     "appId": "your.id",
