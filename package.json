@@ -16,7 +16,8 @@
     "postinstall": "install-app-deps",
     "start": "electron .",
     "pack": "build --dir",
-    "dist": "build"
+    "dist": "build",
+    "release": "build"
   },
   "win": {
     "remoteReleases": "https://github.com/vicatcu/Electron-Sandbox"
