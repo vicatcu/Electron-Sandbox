@@ -4,11 +4,9 @@
   "description": "blargity blargy blarg",
   "main": "main.js",
   "build": {
+    "asar": false,
     "appId": "your.id",
     "category": "your.app.category.type",
-    "win": {
-      "iconUrl": "(windows-only) https link to icon"
-    }
   },
   "devDependencies": {
     "electron-prebuilt": "^1.3.3",
@@ -19,6 +17,9 @@
     "start": "electron .",
     "pack": "build --dir",
     "dist": "build"
+  },
+  "win": {
+    "remoteReleases": "https://github.com/vicatcu/Electron-Sandbox"
   },
   "repository": {
     "type": "git",
